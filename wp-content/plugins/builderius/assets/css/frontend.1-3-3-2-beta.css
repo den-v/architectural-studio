@@ -1,0 +1,30 @@
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./dev-assets/sass/frontend.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+.builderiusContent :is([hidden]) {
+  display: none;
+}
+
+.uni-display-contents {
+  display: contents;
+}
+
+:where(builderius-collection,
+builderius-pagination,
+builderius-tabs,
+builderius-accordion,
+builderius-slider,
+builderius-swiper,
+builderius-toggle,
+builderius-image-compare-viewer,
+builderius-lottie,
+builderius-smart-form,
+builderius-menu-toggle) {
+  display: block;
+}
+
+/* Fix: some additional "default" props for admin bar */
+#wpadminbar ul {
+  display: block;
+  position: relative;
+}
